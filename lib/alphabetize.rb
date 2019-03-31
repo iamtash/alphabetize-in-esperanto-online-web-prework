@@ -8,8 +8,4 @@ def alphabetize(phrases_arr)
       ALPHABET.index(character)
     end
   end
-
-
-
-
 end
