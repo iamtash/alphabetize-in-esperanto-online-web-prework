@@ -11,6 +11,6 @@ arr.each {|phrase|
 }
 binding.pry
 
-new_arr.sort_by {|phrase|}
+new_arr.sort_by {|phrase| phrase[0]}
 
 end
