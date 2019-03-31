@@ -2,6 +2,6 @@ require 'pry'
 
 def alphabetize(arr)
   binding.pry
-  ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split
+  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split
 
 end
