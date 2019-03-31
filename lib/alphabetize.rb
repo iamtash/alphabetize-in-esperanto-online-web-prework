@@ -2,8 +2,8 @@ require 'pry'
 
 ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
-def alphabetize(arr)
-
+def alphabetize(phrases_arr)
+  phrases_arr.split("").map {|phrase| ALPHABET.index(phrase)}
 
 
 
