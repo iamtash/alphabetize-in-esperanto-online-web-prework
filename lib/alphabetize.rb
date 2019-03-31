@@ -11,6 +11,6 @@ arr.each {|phrase|
 }
 binding.pry
 
-new_arr.sort_by {|phrase| phrase[0]}
+new_arr.sort_by {|phrase| phrase[0]}.map {|num_phrase| num_phrase[1]}
 
 end
