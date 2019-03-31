@@ -3,7 +3,11 @@ require 'pry'
 ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(phrases_arr)
-  phrases_arr.split("").map {|phrase| ALPHABET.index(phrase)}
+  phrases_arr.sort_by do |phrase|
+    phrase.split("").map do |character|
+      ALPHABET.index(character)
+    end
+  end
 
 
 
