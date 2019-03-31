@@ -8,9 +8,10 @@ def alphabetize(arr)
 #  }
 #  binding.pry
 binding.pry
-arr.map {|word|
+new_arr = []
+arr.each {|word|
   alphabet.each_with_index {|letter, index|
-    word = index.to_s + word if word[0] == letter
+    new_arr << index.to_s + word if word[0] == letter
   }
 }
 binding.pry
