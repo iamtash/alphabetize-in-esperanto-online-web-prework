@@ -13,5 +13,6 @@ arr.map {|word|
     word = index.to_s + word if word[0] == letter
   }
 }
+binding.pry
 
 end
