@@ -9,11 +9,13 @@ def alphabetize(arr)
 #  binding.pry
 binding.pry
 new_arr = []
-arr.each {|word|
+arr.each {|phrase|
   alphabet.each_with_index {|letter, index|
-    new_arr << index.to_s + word if word[0] == letter
+    new_arr << index.to_s + phrase if phrase[0] == letter
   }
 }
 binding.pry
+
+new_arr.sort_by {|}
 
 end
